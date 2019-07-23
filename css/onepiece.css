@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 0.85em;
+    font-weight: bold;
+    font-family: 'Lucida Grande', 'Hiragino Kaku Gothic ProN', 'ヒラギノ角ゴ ProN W3', Meiryo, メイリオ, sans-serif;
+}
+
+#divLeft {
+    background-color: lightskyblue;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+
+    padding: 50px 0px 20px 30px;
+}
+
+#divRight {
+    /* width: 50%;
+    position: absolute;
+    right: 0; */
+
+    position: absolute;
+    left: 50%;
+
+
+
+    /* 昨天的 */
+    /* position: absolute; */
+    /* right: 0; */
+
+    /* 今天的 */
+    /* margin-left: 50%; */
+}
+
+#divRight1 {
+    /* background-color: red;  */
+    background-image: url("../img/bg_dot.jpg");
+
+    /* margin: 0px 0px 0px 200px; */
+    padding: 65px 70px 20px 70px;
+}
+
+.pic1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pic2:hover {
+    opacity: 0.7;
+}
+
+.divTittle {
+    font-size: 20px;
+    text-align: center;
+
+
+
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.divTittle2 {
+    font-size: 20px;
+
+
+
+    /* text-align: left;
+    display: block;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.divText {
+
+
+    
+    /* width: 440px; */
+    /* width: 100%; */
+}
+
+.divText2 {
+    font-size: 0.75em;
+
+
+
+    /* width: 440px; */
+    /* width: 100%; */
+
+}
+
+.tableTraffic {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    border: 1px solid lightGrey;
+
+
+
+    /* word-break: keep-all; */
+    /* width: 150px; */
+    /* height: 50px;      */
+    /* border-style: solid; */
+    /* border: 1px solid lightGrey; */
+    /* border-right: 0;
+    border-bottom: 0; */
+    /* border-spacing: 1rem; */
+}
+
+.tableTrafficTr1 {
+    height: 50px;
+    background-color: lightskyblue;
+
+
+
+    /* border: 1px solid lightGrey; */
+    /* text-align: center; */
+    /* width: auto; */
+    /* border-left: 1px solid lightGrey;    
+    border-bottom: 1px solid lightGrey;     */
+}
+
+.tableTrafficTr2 {
+    height: 50px;
+    /* background-color: lightskyblue; */
+
+
+
+    /* border: 1px solid lightGrey; */
+    /* text-align: center; */
+    /* width: auto; */
+    /* border-left: 1px solid lightGrey;    
+    border-bottom: 1px solid lightGrey;     */
+}
+
+.tableTrafficTd1 {
+    border: 1px solid lightGrey;
+
+
+
+    /* height: 50px; */
+    /* text-align: center; */
+    /* border: 1px solid lightGrey;  */
+    /* border-left: 1px solid red;
+    border-bottom: 1px solid orange; */
+}
+
+.tableTrafficTd2 {
+    border: 1px solid lightGrey;
+
+
+
+    /* height: 50px; */
+    /* text-align: center; */
+    /* border: 1px solid lightGrey; */
+    /* border-left: 1px solid yellow;
+    border-bottom: 1px solid green; */
+}
+
+.footer {
+    background-color: white;
+    padding: 20px 70px 20px 70px;
+
+
+
+    /* display:inline-block; */
+    /* display: inline; */
+}
